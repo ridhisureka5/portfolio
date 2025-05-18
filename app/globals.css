@@ -1,4 +1,10 @@
 @import "tailwindcss";
+*{
+  z-index: 2;
+}
+html{
+  scroll-behavior: smooth;
+}
 
 :root {
   --background: #ffffff;
