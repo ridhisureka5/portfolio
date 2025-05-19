@@ -1,12 +1,16 @@
-
+'use client';
+import Image from 'next/image';
+import Particles from 'react-tsparticles';
+import Part from '../ParticlesBackground/Page';
 export default function Projects() {
   return (
     <div className="bg-black text-white min-h-screen px-6 py-10">
+      <Part/>
       <h1 className="text-4xl font-bold mb-10 text-center">Projects</h1>
       <div className="grid md:grid-cols-2 gap-10">
         {/* Glamify */}
-        <div className="bg-gray-900 p-6 rounded-2xl shadow-md">
-          <img src="/images/glamify.png" alt="Glamify" className="rounded-lg mb-4 w-full" />
+        <div className="bg-black-50 p-6 rounded-2xl shadow-md">
+          <img src="glam.png" alt="Glamify" className="rounded-lg mb-4 w-full" />
           <h2 className="text-2xl font-semibold mb-2">
             <a href="https://glamify-beta.vercel.app" className="text-pink-400 hover:underline">Glamify</a>
           </h2>
@@ -18,8 +22,8 @@ export default function Projects() {
         </div>
 
         {/* Adidas Clone */}
-        <div className="bg-gray-900 p-6 rounded-2xl shadow-md">
-          <img src="/images/adidas-clone.png" alt="Adidas Clone" className="rounded-lg mb-4 w-full" />
+        <div className="bg-black-50 p-6 rounded-2xl shadow-md">
+          <img src="adi.png" alt="Adidas Clone" className="rounded-lg mb-4 w-full" />
           <h2 className="text-2xl font-semibold mb-2">
             <a href="https://adicom.vercel.app" className="text-blue-400 hover:underline">Adidas Clone E-Commerce</a>
           </h2>
@@ -31,8 +35,8 @@ export default function Projects() {
         </div>
 
         {/* RentX */}
-        <div className="bg-gray-900 p-6 rounded-2xl shadow-md">
-          <img src="/images/rentx.png" alt="RentX" className="rounded-lg mb-4 w-full" />
+        <div className="bg-black-50 p-6 rounded-2xl shadow-md">
+          <img src="rent.png" alt="RentX" className="rounded-lg mb-4 w-full" />
           <h2 className="text-2xl font-semibold mb-2">
             <a href="https://github.com/ridhisureka5/car-rental" className="text-green-400 hover:underline">RentX – Decentralized Car Rental DApp</a>
           </h2>
@@ -44,8 +48,8 @@ export default function Projects() {
         </div>
 
         {/* Smart AutoML Analyst */}
-        <div className="bg-gray-900 p-6 rounded-2xl shadow-md">
-          <img src="/images/automl.png" alt="Smart AutoML Analyst" className="rounded-lg mb-4 w-full" />
+        <div className="bg-black-50 p-6 rounded-2xl shadow-md">
+          <img src="analyst.png" alt="Smart AutoML Analyst" className="rounded-lg mb-4 w-full" />
           <h2 className="text-2xl font-semibold mb-2">
             <a href="https://github.com/ridhisureka5/automl" className="text-yellow-400 hover:underline">Smart AutoML Analyst</a>
           </h2>

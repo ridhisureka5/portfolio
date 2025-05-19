@@ -48,18 +48,78 @@ export default function Skills() {
          
         
           <Skill icon={<SiVercel size={40} color="#fff"/>} name="Vercel" />
-         <Skill icon={<Image src="/port5.jpeg" alt="port5" width={70} height={90} />} name="AWS"/>
-<Skill icon={<Image src="/port6.svg" alt="port6" width={40} height={40} />}
-  name="Vyper"/>
-<Skill icon={<Image src="/port7.svg" alt="port7" width={40} height={40} />}
-  name="Metamask"/>
-  <Skill icon={<Image src="/port8.svg" alt="port8" width={40} height={40} />}
-  name="Nextjs"/>
-  <Skill icon={<Image src="/port9.svg" alt="port9" width={40} height={40} />}
-  name="SQL"/>
-  <Skill icon={<Image src="/port10.svg" alt="port10" width={40} height={40} />}
-  name="MongoDB"/>
-        </div>
+       <Skill
+    icon={
+      <div className="relative w-10 h-10 sm:w-12 sm:h-12 mx-auto">
+        <Image
+          src="/port5.jpeg"
+          alt="AWS"
+          fill
+          className="object-contain"
+        />
+      </div>
+    }
+    name="AWS"
+  />
+
+  <Skill
+    icon={
+      <div className="relative w-10 h-10 sm:w-12 sm:h-12 mx-auto">
+        <Image
+          src="/port6.svg"
+          alt="Vyper"
+          fill
+          className="object-contain"
+        />
+      </div>
+    }
+    name="Vyper"
+  />
+
+  <Skill
+    icon={
+      <div className="relative w-10 h-10 sm:w-12 sm:h-12 mx-auto">
+        <Image
+          src="/port7.svg"
+          alt="Metamask"
+          fill
+          className="object-contain"
+        />
+      </div>
+    }
+    name="Metamask"
+  />
+
+  <Skill
+    icon={
+      <div className="relative w-10 h-10 sm:w-12 sm:h-12 mx-auto">
+        <Image
+          src="/port8.svg"
+          alt="Next.js"
+          fill
+          className="object-contain"
+        />
+      </div>
+    }
+    name="Next.js"
+  />
+
+  <Skill
+    icon={
+      <div className="relative w-10 h-10 sm:w-12 sm:h-12 mx-auto">
+        <Image
+          src="/port9.svg"
+          alt="SQL"
+          fill
+          className="object-contain"
+        />
+      </div>
+    }
+    name="SQL"
+  />
+
+  
+</div>
       </div>
     </div>
   );
